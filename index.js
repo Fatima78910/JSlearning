@@ -1,17 +1,18 @@
-let name = 'Fatima';
-let size = 0;
-for(let count of name){
-    
-    console.log(count,size);
-    
-    size++;
+let name = prompt("Enter your name: ");
+console.log(`@ ${name} ${name.length}`);
+console.log("@" + name + name.length);
+// for(let i=0;i<=100;i++){
+//     if(i%2==0){
+//         console.log(i);
+//     }
+// }
 
-}
+// let num = prompt("Enter Random Number: ");
+// let guess = prompt("Guess a Number: ");
 
-let book = {
-    name : 'Biology',
-    pages : 100
-}
-for(let i in book){
-    console.log(i, book[i]);
-}
+// while(num !==guess){
+//     let guessAgain = prompt("You've guessed a wrong number \n Try again!");
+
+// }
+// console.log("Congratulations!");
+
