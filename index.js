@@ -1,4 +1,17 @@
-let a = 3;
-let b = 4;
-console.log("a > b || a ==b  = ", a>b || a==b);
-console.log("sfds");
+let name = 'Fatima';
+let size = 0;
+for(let count of name){
+    
+    console.log(count,size);
+    
+    size++;
+
+}
+
+let book = {
+    name : 'Biology',
+    pages : 100
+}
+for(let i in book){
+    console.log(i, book[i]);
+}
