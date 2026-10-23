@@ -1,6 +1,3 @@
-const profile = {
-    Name : 'Sharadha',
-    post:195,
-    following:4
-};
-console.log(profile);
+let a = 3;
+let b = 4;
+console.log("a > b || a ==b  = ", a>b || a==b);
