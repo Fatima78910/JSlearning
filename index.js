@@ -1,9 +1,27 @@
-//practice: 2
 
-let intro=document.querySelector(".para");
-let newc=document.querySelector(".newclass");
-intro.classList.add("newclass");
-intro.append(newc);
+
+
+
+//toogle between light and dark mode
+// let body = document.querySelector("body");
+// let btn=document.querySelector("#btn");
+// let mode="light";
+// btn.addEventListener("click", ()=> {
+// if(mode=="light"){
+//     mode="dark";
+//     body.style.backgroundColor="black";
+// }else{
+//     mode="light";
+//     body.style.backgroundColor="white";
+// }console.log(mode);
+// });
+
+
+//practice: 2
+// let intro=document.querySelector(".para");
+// let newc=document.querySelector(".newclass");
+// intro.classList.add("newclass");
+// intro.append(newc);
 
 //practice: 1
 // let button=document.createElement("Button");
